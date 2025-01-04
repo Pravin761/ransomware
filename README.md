@@ -17,3 +17,14 @@ Ransomware
 
 2. **Ethical Use:**  
    If you are writing such code for **educational** or **research** purposes, ensure it is done in a secure and isolated environment. This prevents misuse and aligns with ethical guidelines.
+
+
+Set up 'home' target directory:
+
+./setup-env.sh
+Run locally:
+
+go run encryption.go
+Compile for windows:
+
+env GOOS=windows GOARCH=amd64 go build encryption.go
